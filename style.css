@@ -34,6 +34,10 @@
     padding: 22px 22px;
 }
 
+.to {
+    padding: 10px;
+}
+
 .exchange{
     width: 46px;
     border: 1px solid rgb(190, 148, 70);
@@ -148,4 +152,8 @@ form{
    .output input{
     width: 80%;
    }
+
+   .selection{
+    padding: 22px 0;
+}
 }
