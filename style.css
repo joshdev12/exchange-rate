@@ -1,0 +1,151 @@
+#nav-close{
+    justify-content: space-around; 
+}
+
+.navbar-nav{
+    width: 40%;       
+}
+
+.inner-first-section{
+    width: 100%;
+}
+
+.img-first-section img {
+    width: 100%;
+}
+
+.first-section-content{
+    padding: 8% 0;
+    line-height: 2.5;
+}
+
+.first-section-content p{
+    text-align: justify;
+}
+
+#amount{
+    padding: 5px;
+    border: 2px groove rgb(190, 148, 70);
+    border-radius: 11px;
+    box-shadow: 0px 2px 4px 0px grey;
+}
+
+.selection{
+    padding: 22px 22px;
+}
+
+.exchange{
+    width: 46px;
+    border: 1px solid rgb(190, 148, 70);
+    height: 39px;
+    border-radius: 50%;
+    padding: 12px 14px;
+}
+
+#output{
+    padding: 5px;
+    border: 2px groove rgb(190, 148, 70);
+    border-radius: 11px;
+    box-shadow: 0px 2px 4px 0px grey;
+}
+
+.converter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 4%;
+    width: 100%;
+}
+form{
+    width: 100%;
+}
+
+.convert-btn{
+    padding: 23px 101px;
+}
+
+.convert-btn button{
+    border: none;
+    padding: 8px;
+    border-radius: 18px;
+    color: wheat;
+    background: #2b335de0;
+}
+
+.convert-btn button:hover{
+    padding: 9px;
+    background-color: rgb(30, 27, 27);
+    color: rgb(255, 255, 255);
+}
+
+.convert-img img{
+    width: 100%;
+}
+
+
+
+.about-container{
+    display: flex;
+    align-items: center;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-content {
+   width: 50%;
+}
+
+
+.about-content p{
+    text-align: justify;
+    line-height: 2.3;
+   
+}
+
+
+
+
+
+
+@media (max-width:768px){
+
+
+    .first-section-content{
+        padding: 0;
+    }
+    .converter-form{
+        padding: 20px 0;
+        width: 100%;
+    }
+    form{
+        text-align: center;
+        width: 100%;
+    }
+
+    .about-container{
+        flex-wrap: wrap;
+    }
+
+    .about-content{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px){
+
+   
+}
+
+@media (max-width:400px){
+
+   .amount input{
+      width: 80%;
+   }
+
+   .output input{
+    width: 80%;
+   }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex-change Rate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+
+    <div class="second-nav bg-light sticky-top" style="z-index: 1; top: 0;">
+        <div class="second-nav-container">
+            <nav class="navbar navbar-expand-md " >
+                <div class="container">
+                    <a href="index.html" class="navbar-brand text-dark"><img src="images/josh ex-change-PhotoRoom.png" style="width: 95px;border-radius: 15px;box-shadow: 3px 3px 5px 1px grey; " alt=""></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-close">
+                        <span class="fas fa-bars"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse " id="nav-close" >
+                        <ul class="navbar-nav second-nav-menu justify-content-around">
+                            <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="#convert">Converter</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="#about-us">About-us</a></li>                            
+
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+
+        </div>
+
+
+    </div>
+
+    <div class="first-section px-4">
+        <div class="first-section-container">
+            <div class="inner-first-section row ">
+                <div class="img-first-section px-2 col-xl-7 col-md-12 col-sm-12">
+                    <img src="images/covert.jpg" alt="">
+                </div>
+
+                <div class="first-section-content col-xl-5 col-md-12 col-sm-12">
+                    <p>
+                        Josh trade currency Converter allows you to check the cutting-edge foreign exchange common bid/ask quotes and convert all most important international currencies. Our costs are foreign exchange costs compiled from leading market records contributors.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="convert">
+        <div class="px-5">
+            <b>Free foreign money converter to calculate trade costs for currencies and metals. Enter the values in the foreign money calculator.</b>
+        </div>
+
+        <div class="converter  ">
+            <div class="converter-form">
+                <form action="" >
+                    <div class="amount">
+                        <input type="text" id="amount" size="40">
+                    </div>
+                    <div class="selection ">
+                        <span class="from px-2" >
+                            From:
+                            <select name="" id="from" >
+                            
+                            </select>
+                        </span>
+                        <span class="exchange "> <i class="fas fa-exchange-alt"></i></span>
+
+                        <span class="to px-3">
+                            To
+                            <select name="" id="to">
+                                
+                            </select>
+                        </span>
+                    </div>
+                    <div class="output">
+                        <input type="text" id="output" size="40">
+                    </div>
+                    <div class="convert-btn">
+                        <button type="button" onclick="convert()">convert <i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="convert-img">
+                <img src="images/e.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us px-4" id="about-us">
+        <div class="">
+            <h3 class="" style="text-align: center;">About-us</h3>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="images/about.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <p>Our purpose of creating this website is to give out an open source to our users to be able to check for the current currency price of their choice.
+                    Our main aim and objective within 2-3years is to develop this website to the global view to be made known and to be able to buy and sell of any crypto coin. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="boostrap/bootstrap.bundle.min.js"></script>
+    <script src="exchange.js"></script>
+</body>
+</html>
